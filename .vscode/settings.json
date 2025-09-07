@@ -1,0 +1,121 @@
+{
+  "breadcrumbs.enabled": false,
+  "window.zoomLevel": 0,
+  "editor.cursorBlinking": "expand",
+  "workbench.iconTheme": "icons",
+  "editor.fontFamily": "fira-code-nerd, FiraCode Nerd Font, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.fontWeight": "50",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "editor.glyphMargin": false,
+  "editor.guides.indentation": true, // Activa las guías de emparejamiento de llaves y paréntesis // Activa las guías de indentación
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true, // Activa la colorización de pares
+  "editor.guides.bracketPairs": true,
+  "editor.matchBrackets": "always",
+  "editor.minimap.enabled": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "line",
+  "editor.scrollbar.vertical": "auto",
+  "editor.smoothScrolling": true,
+  "git.autofetch": true,
+  "indenticator.color.dark": "rgba(255,255,255,0.1)",
+  "indenticator.width": 0.1,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontFamily": "fira-code-nerd, FiraCode Nerd Font, Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 12,
+  "workbench.colorTheme": "One Monokai",
+  "workbench.editor.showTabs": "single",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.settings.editor": "json",
+  "editor.guides.bracketPairsHorizontal": true, // Muestra guías horizontales
+  "editor.autoClosingBrackets": "always", // Cierre automático de llaves y paréntesis
+  "editor.autoClosingQuotes": "always", // Cierre automático de comillas
+  "editor.autoSurround": "languageDefined", // Rodea automáticamente elementos seleccionados
+  "editor.autoClosingOvertype": "always", // Sobrescribe los caracteres de cierre
+  "workbench.settings.applyToAllProfiles": [],
+  "cSpell.language": "es",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "indenticator.languageSpecific": {},
+  "workbench.editor.enablePreview": false,
+  "gitlens.menus": {
+    "editor": {
+      "blame": true,
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "editorGroup": {
+      "blame": true,
+      "compare": true
+    },
+    "editorGutter": {
+      "compare": true,
+      "remote": true,
+      "share": true
+    },
+    "editorTab": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "ghpr": {
+      "worktree": true
+    },
+    "scm": {
+      "graph": true
+    },
+    "scmRepositoryInline": {
+      "graph": true
+    },
+    "scmRepository": {
+      "authors": true,
+      "generateCommitMessage": true,
+      "graph": false
+    },
+    "scmGroupInline": {
+      "stash": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true
+    },
+    "scmItemInline": {
+      "stash": false
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true,
+      "share": true,
+      "stash": true
+    }
+  },
+  "workbench.activityBar.location": "hidden",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "angular-schematics.angularDisableProjectPathCheck": true
+}

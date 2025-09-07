@@ -1,0 +1,42 @@
+<div class="card">
+  <p-table [value]="stockNegativo" [tableStyle]="{ 'min-width': '60rem' }">
+    <ng-template #caption>
+      <div class="flex items-center justify-between">
+        <span class="text-xl font-bold">Product</span>
+        <p-button icon="pi pi-refresh" rounded raised />
+      </div>
+    </ng-template>
+    <ng-template #header>
+      <tr>
+        <th>Codigo</th>
+        <th>Producto</th>
+        <th>Stock1</th>
+        <th>Und1</th>
+        <th>Stock2</th>
+        <th>Und2</th>
+        <th>Superfamilia</th>
+        <th>Familia</th>
+      </tr>
+    </ng-template>
+    <ng-template #body let-product>
+      <tr>
+        <td>{{ product.codigo }}</td>
+        <td>{{ product.producto }}</td>
+        <td>{{ product.stock1 | number : "1.2-2" }}</td>
+        <td>{{ product.und1 }}</td>
+        <td>{{ product.stock2 | number : "1.2-2" }}</td>
+        <td>{{ product.und2 }}</td>
+        <td>{{ product.superFamilia | titlecase }}</td>
+        <td>{{ product.familia | lowercase }}</td>
+      </tr>
+    </ng-template>
+    <ng-template #footer>
+      <tr>
+        <td colspan="8">
+          In total there are
+          {{ stockNegativo ? stockNegativo.length : 0 }} productos negativos.
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
